@@ -1,0 +1,24 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-xs-12">
+
+            <h2>Input example</h2>
+
+            <input placeholder="Search.." type="text" [formControl]="searchInput"/>
+
+        </div>
+
+        <div class="col-xs-12">
+
+            <h2>Function call example</h2>
+
+            <button (click)="increaseQty()">+</button>
+            <button (click)="decreaseQty()">-</button>
+            <p>{{ buttonValue }}</p>
+        </div>
+
+    </div>
+
+</div>
