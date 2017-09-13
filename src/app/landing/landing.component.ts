@@ -10,7 +10,6 @@ import 'rxjs/Rx';
 export class LandingComponent implements OnInit {
     public debounce;
     public debounceSaveFunction;
-    public saving;
 
     public searchInput: FormControl = new FormControl('');
 
